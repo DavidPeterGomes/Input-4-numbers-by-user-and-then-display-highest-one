@@ -15,7 +15,7 @@ if(C>33):
 else:
   print("fail in C")
 
-Total_Percentage= A+B+C/300 # this check percentage :)
+Total_Percentage= (100*(A+B+C))/300# this check percentage :)
 
 if (Total_Percentage<40):
   print("failed in class sorry")
